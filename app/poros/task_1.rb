@@ -1,6 +1,10 @@
 class Task1
+
+  # When passed two arrays of names, it will return an array containing the names
+  # that appear in either or both arrays. The returned array should have no duplicates.
+
   def unique_names(names1, names2)
-    return nil
+    #
   end
 
   # should print array of Ava, Emma, Olivia, Sophia in any order
@@ -16,4 +20,5 @@ class Task1
     names2 = ["Sophia", "Emma"]
     puts unique_names(names1, names2)
   end
+
 end

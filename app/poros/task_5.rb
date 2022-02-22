@@ -13,4 +13,3 @@ class Task5 < ActiveRecord::Base
     notes.reminders.any?
   end
 end
-
