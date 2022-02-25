@@ -89,6 +89,13 @@ Extend the application to create `Activities` over multiple steps:
 
 **Step 3**: starts_at, ends_at [back and save buttons]
 
-Update the activity model, controller and views to reflect this functionality. Every step should have its own form.
+Update the activity model, controller and views to reflect this functionality. 
+
+- Every step should have its own form
+- Show `"#{current_step} of 3"`
+- The next step only shows when the current step is valid
+- Save on step 3 validates the entire model
+- Successful `save` on step 3 redirects to `activities#index`
+- Should work the same way for `activities#new` and `activities#edit`
 
 See `app/models/activity.rb`, `app/controllers/activities.rb` and `app/views/activities/**`
