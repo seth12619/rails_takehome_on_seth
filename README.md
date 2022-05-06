@@ -41,10 +41,10 @@ end
 ```
 
 Select all acceptable answers:
-- [ ] The contacts.name field may be null.
+- [o] The contacts.name field may be null.
 - [ ] The contacts table has no index.
-- [ ] The table called contacts contains four different data types.
-- [ ] The table called contacts contains four different fields.
+- [o] The table called contacts contains four different data types.
+- [o] The table called contacts contains four different fields.
 - [ ] The contacts.address field may be null.
 
 
@@ -70,8 +70,8 @@ end
 Select the routing statements that can be used to update a record. Select all acceptable answers:
 - [ ] write /records/:id', to: 'records#update'
 - [ ] put /records/:id', to: 'records#update'
-- [ ] patch '/records/:id', to: 'records#update'
-- [ ] post '/records/:id', to: 'records#update'
+- [o] patch '/records/:id', to: 'records#update'
+- [o] post '/records/:id', to: 'records#update'
 - [ ] resource :records, only: [:update]
 
 ## Task 5.

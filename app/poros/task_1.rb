@@ -4,7 +4,11 @@ class Task1
   # that appear in either or both arrays. The returned array should have no duplicates.
 
   def unique_names(names1, names2)
-    #
+    result = nil
+    if !names1.blank? && !names2.blank?
+      result = names1 & names2
+    end
+    return result.uniq
   end
 
   # should print array of Ava, Emma, Olivia, Sophia in any order
